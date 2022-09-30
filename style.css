@@ -275,7 +275,7 @@ ul li p{
 @media all and (max-width:640px){
   img{
     justify-content: center;
-    padding-left: 5px;
+    padding-left: 13px;
   }
 }
 
