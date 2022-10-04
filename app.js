@@ -5,6 +5,7 @@ function myFunction1() {
     var c = document.getElementById("4");
     var d = document.getElementById("5");
     var e = document.getElementById("6");
+    var f = document.getElementById("0");
     if (x.style.display === "none") {
       x.style.display = "block";
       a.style.display = "none";
@@ -12,7 +13,7 @@ function myFunction1() {
       c.style.display = "none";
       d.style.display = "none";
       e.style.display = "none";
-
+      f.style.display = "none";
     } else {
       x.style.display = "none";
       a.style.display = "none";
@@ -20,6 +21,7 @@ function myFunction1() {
       c.style.display = "none";
       d.style.display = "none";
       e.style.display = "none";
+      f.style.display = "block";
     }
   }
 
@@ -29,14 +31,16 @@ function myFunction1() {
     var a = document.getElementById("3");
     var b = document.getElementById("4");
     var c = document.getElementById("5");
-    var d = document.getElementById("6");    
+    var d = document.getElementById("6");   
+    var f = document.getElementById("0"); 
     if (x.style.display === "none") {
       x.style.display = "block";
       a.style.display = "none";
       b.style.display = "none";
       c.style.display = "none";
       d.style.display = "none";
-      e.style.display = "none";    
+      e.style.display = "none";   
+      f.style.display = "none"; 
     } else {
       x.style.display = "none";
       a.style.display = "none";
@@ -44,6 +48,7 @@ function myFunction1() {
       c.style.display = "none";
       d.style.display = "none";
       e.style.display = "none";
+      f.style.display = "block";
     }
   }
 
@@ -53,7 +58,8 @@ function myFunction1() {
     var x = document.getElementById("3");
     var a = document.getElementById("4");
     var b = document.getElementById("5");
-    var c = document.getElementById("6");    
+    var c = document.getElementById("6");
+    var f = document.getElementById("0");    
     if (x.style.display === "none") {
       x.style.display = "block";
       a.style.display = "none";
@@ -61,6 +67,7 @@ function myFunction1() {
       c.style.display = "none";
       d.style.display = "none";
       e.style.display = "none";
+      f.style.display = "none";
       } else {
         x.style.display = "none";
         a.style.display = "none";
@@ -68,6 +75,7 @@ function myFunction1() {
         c.style.display = "none";
         d.style.display = "none";
         e.style.display = "none";    
+        f.style.display = "block";
       }
   }
 
@@ -77,21 +85,24 @@ function myFunction1() {
     var e = document.getElementById("3");
     var x = document.getElementById("4");
     var a = document.getElementById("5");
-    var b = document.getElementById("6");    
+    var b = document.getElementById("6"); 
+    var f = document.getElementById("0");   
     if (x.style.display === "none") {
       x.style.display = "block";
       a.style.display = "none";
       b.style.display = "none";
       c.style.display = "none";
       d.style.display = "none";
-      e.style.display = "none";    
+      e.style.display = "none";  
+      f.style.display = "none";  
     } else {
       x.style.display = "none";
       a.style.display = "none";
       b.style.display = "none";
       c.style.display = "none";
       d.style.display = "none";
-      e.style.display = "none";    
+      e.style.display = "none";  
+      f.style.display = "block";  
     }
   }
 
@@ -102,13 +113,15 @@ function myFunction1() {
     var e = document.getElementById("4");
     var x = document.getElementById("5");
     var a = document.getElementById("6");
+    var f = document.getElementById("0");
     if (x.style.display === "none") {
       x.style.display = "block";
       a.style.display = "none";
       b.style.display = "none";
       c.style.display = "none";
       d.style.display = "none";
-      e.style.display = "none";    
+      e.style.display = "none";   
+      f.style.display = "none"; 
     } else {
       x.style.display = "none";
       a.style.display = "none";
@@ -116,6 +129,7 @@ function myFunction1() {
       c.style.display = "none";
       d.style.display = "none";
       e.style.display = "none";    
+      f.style.display = "block";
     }
   }
 
@@ -126,19 +140,22 @@ function myFunction1() {
     var d = document.getElementById("4");
     var e = document.getElementById("5");
     var x = document.getElementById("6");
+    var f = document.getElementById("0");
     if (x.style.display === "none") {
       x.style.display = "block";
       a.style.display = "none";
       b.style.display = "none";
       c.style.display = "none";
       d.style.display = "none";
-      e.style.display = "none";    
+      e.style.display = "none"; 
+      f.style.display = "none";   
     } else {
       x.style.display = "none";
       a.style.display = "none";
       b.style.display = "none";
       c.style.display = "none";
       d.style.display = "none";
-      e.style.display = "none";    
+      e.style.display = "none";   
+      f.style.display = "block"; 
     }
   }
