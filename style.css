@@ -46,35 +46,59 @@ a:hover{
     margin-left: 45px;
 
 }
-.about{
+.name{
   margin: 15px;
   margin-top: 100px;
   width: 1200px;
   padding: 10px;
   height:400px;
-  display: none;
+  margin-bottom: 30px;
+  font-size: 70px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-family:  sans-serif;
 }
-img{
+.name0{
+  padding-left: 10px;
+  line-height: 0.5;
+  margin-bottom: 30px;
+}
+.name span{
+  font-size: 20px;
+  color: white;
+  margin-left: 30px;
+}
+.name img{
   width: 350px;
   height: 300px;
   border-radius: 50%;
-  margin-right: 40px;
-  box-shadow: 0px 0px 15px px black;
+  margin-left: 50px;
+}
+
+.about{
+  margin: 15px;
+  margin-top: 150px;
+  width: 1200px;
+  padding: 10px;
+  height:400px;
+  margin-bottom: 30px;
+  display: none;
 }
 
 .first{
   color: #ffffff;
-  font-size: 20px;
-  text-align: justify;
-  margin-top: 50px;
-  
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
 }
 .me{
-  font-size: 50px;
+  font-size: 55px;
   color: #ffffff;
   margin-bottom: 40px;
   font-weight: 100px;
   font-family: fantasy;
+  text-align: center;
 }
 
 .skills{
@@ -91,7 +115,7 @@ img{
   width: 120px;
   height: 120px;
   border-radius: 0;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 ul{
   display:inline-flex;
@@ -101,12 +125,12 @@ ul{
 li{
   padding: 70px;
   text-align: center;
+  margin-top: 0;
 }
 ul li p{
   font-family:fantasy ;
   font-size: 30px;
   color: #ffffff;
-  margin-right: 40px;
   letter-spacing: 0.5px;
 }
 
@@ -247,6 +271,16 @@ ul li p{
     margin-bottom: 30px;
   }
 }
+@media all and (max-width:980px){
+  .name{
+    width: 100%; 
+    margin-left: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    float: left;
+  }
+}
  
 @media all and (max-width:1105px){
    .lan ,.cont , .me ,.first, .skills ul{
@@ -257,6 +291,7 @@ ul li p{
     flex-wrap: wrap;
     margin-left: 0;
     padding-left: 0;
+    margin-bottom: 30px;
   }
 }
 
@@ -268,14 +303,37 @@ ul li p{
     margin-left: 0;
     padding: 0;
     margin-top: 190px;
-    padding-left: 25px;
+    padding-left: 5px;
   }
 }
 
 @media all and (max-width:640px){
-  img{
+  .name img{
     justify-content: center;
-    padding-left: 14px;
+    margin-left: 5px;
+    width: 300px;
+    height: 250px;
+  }
+}
+@media all and (max-width:640px){
+  .name span{
+    margin-left: 10px;
+    font-size: 10px;
   }
 }
 
+@media all and (max-width:640px){
+  .name{
+    font-size: 40px;
+  }
+}
+
+#myDIV {
+  border: 8px solid white;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border-color: #753a88;}
+
+}
